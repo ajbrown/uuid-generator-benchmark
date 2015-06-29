@@ -1,11 +1,16 @@
 UUID Generator Benchmark
 ------------------------
 
-A [JMH Benchmark](http://openjdk.java.net/projects/code-tools/jmh/) comparing 3 popular java UUID generators:
+A [JMH Benchmark](http://openjdk.java.net/projects/code-tools/jmh/) comparing 3 popular java UUID generators' ability to
 
 * [JDK's UUID class](https://docs.oracle.com/javase/7/docs/api/java/util/UUID.html)
 * [Java UUID Generator](https://github.com/cowtowncoder/java-uuid-generator) by Tatu Saloranta of FasterXML.com
 * [EAIO](http://johannburkard.de/software/uuid/#maven) by Johann Burkard
+
+
+### Test Scenario
+
+Generate 100k UUIDs of each supported type, 10 times.
 
 
 ### Running the Benchmarks
