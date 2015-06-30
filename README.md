@@ -1,7 +1,7 @@
 UUID Generator Benchmark
 ------------------------
 
-A [JMH Benchmark](http://openjdk.java.net/projects/code-tools/jmh/) comparing 3 popular java UUID generators' ability to
+A [JMH Benchmark](http://openjdk.java.net/projects/code-tools/jmh/) comparing 3 popular java UUID generators' ability to...well...generate UUIDs.
 
 * [JDK's UUID class](https://docs.oracle.com/javase/7/docs/api/java/util/UUID.html)
 * [Java UUID Generator](https://github.com/cowtowncoder/java-uuid-generator) by Tatu Saloranta of FasterXML.com
