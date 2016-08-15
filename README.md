@@ -38,6 +38,18 @@ JavaUUIDBenchmark.nameBased           ss  100  108.856 ± 18.086  ms/op
 JavaUUIDBenchmark.random              ss  100  253.905 ±  6.687  ms/op
 ```
 
+### Late 2014 iMac Retina 5K (4 GHz Core i7, 32GB RAM):
+
+```
+Benchmark                           Mode  Cnt    Score    Error  Units
+EAIOBenchmark.timeAndEthernetBased    ss  100    7.603 ±  0.675  ms/op
+JUGBenchmark.nameBased                ss  100   33.717 ±  3.217  ms/op
+JUGBenchmark.random                   ss  100  160.672 ±  1.793  ms/op
+JUGBenchmark.timeAndEthernetBased     ss  100    7.870 ±  0.649  ms/op
+JUGBenchmark.timeBased                ss  100    8.321 ±  0.872  ms/op
+JavaUUIDBenchmark.nameBased           ss  100   74.504 ± 10.433  ms/op
+JavaUUIDBenchmark.random              ss  100  187.633 ±  7.357  ms/op
+```
 
 ### Contributing
 
